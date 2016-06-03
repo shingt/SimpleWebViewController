@@ -1,0 +1,23 @@
+PODS:
+  - FBSnapshotTestCase (2.1.1):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.1)
+  - FBSnapshotTestCase/Core (2.1.1)
+  - FBSnapshotTestCase/SwiftSupport (2.1.1):
+    - FBSnapshotTestCase/Core
+  - SimpleWebViewController (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - SimpleWebViewController (from `../`)
+
+EXTERNAL SOURCES:
+  SimpleWebViewController:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 432afd8d059ccef7f207225894840a03fbcf7474
+  SimpleWebViewController: eddc613de1ee256605bb95446caf125d639e2e84
+
+PODFILE CHECKSUM: f9c13a3b63d8b4a32d8d5f0ce8856529376234d8
+
+COCOAPODS: 1.0.1

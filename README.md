@@ -5,24 +5,19 @@
 [![License](https://img.shields.io/cocoapods/l/SimpleWebViewController.svg?style=flat)](http://cocoapods.org/pods/SimpleWebViewController)
 [![Platform](https://img.shields.io/cocoapods/p/SimpleWebViewController.svg?style=flat)](http://cocoapods.org/pods/SimpleWebViewController)
 
-## Example
+## SYNOPSYS
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+```swift
+let simpleWebViewController = SimpleWebViewController()
+navigationController.pushViewController(simpleWebViewController, animated: true)
 
-## Requirements
-
-## Installation
-
-SimpleWebViewController is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your Podfile:
-
-```ruby
-pod "SimpleWebViewController"
+let simpleModalWebViewController = SimpleModalWebViewController()
+presentViewController(simpleModalWebViewController, animated: true)
 ```
 
 ## Author
 
-shingt, van.s.ver@gmail.com
+shingt
 
 ## License
 
