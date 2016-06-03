@@ -10,6 +10,8 @@
 		007E0A3F9DEDF964A258EC7AD382C256 /* Pods-SimpleWebViewController_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A73A5F4D59E002286BF0346520D7AE61 /* Pods-SimpleWebViewController_Example-dummy.m */; };
 		09C1F2E61D1B44E7FCD662E62D770F1B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F1B0A45F864B16BBE8E470C07F8F740 /* Foundation.framework */; };
 		11C22C7B844DF31A5EBDC9AC132C5E94 /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B5E22F9517F21D3A0251F88FCAB281E /* UIImage+Compare.m */; };
+		127496881D013963005A96D8 /* SimpleModalWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127496861D013963005A96D8 /* SimpleModalWebViewController.swift */; };
+		127496891D013963005A96D8 /* SimpleWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127496871D013963005A96D8 /* SimpleWebViewController.swift */; };
 		130F048002A62769FAFCC66F2C79391A /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1374B79237CAC07693E99442FBED1F15 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2C87E1788C8FA06AE3481A2226E3AF2D /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EECE81A9AEC1ED1057A9C3C88DBCEBE /* UIApplication+StrictKeyWindow.m */; };
 		34A1C7E576C58A9D3F3101448308BF3E /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B161931541BFE46DFEA2092EDDDA815 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
@@ -32,7 +34,6 @@
 		C708C60C86BC1AF3F15FF0C7B9454E32 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F1B0A45F864B16BBE8E470C07F8F740 /* Foundation.framework */; };
 		C73DE8CF77D0C79CD44A3BA47981B183 /* SimpleWebViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5386BB569BA8752D702823F3E2EAE7DB /* SimpleWebViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D5C30BC656C11AF60394E3180A217BB1 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DBFBDCC891B770A2AC9EF0FB164B751 /* UIImage+Snapshot.m */; };
-		EA82DE865FD3C32817FB8127E22A59DF /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE93F4DA8ED9EAE276387771414DE1A /* ReplaceMe.swift */; };
 		EAA652557B70F493923A3447B5D64E0D /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 432938111B6FF0189EFFEDF2F845B308 /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		F0B3BC4CE7B1074981F32DDD032E9539 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23CD3E7B203996A0AD52CB5A5492AB0D /* UIKit.framework */; };
 		F366B775C22BBE1DBAC7BDB7DE8F0A26 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A69AD0237CBECB2ED21B40E60E958C3 /* QuartzCore.framework */; };
@@ -60,6 +61,8 @@
 /* Begin PBXFileReference section */
 		052258A488A96C35531FAC73C4F42924 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
 		0B161931541BFE46DFEA2092EDDDA815 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
+		127496861D013963005A96D8 /* SimpleModalWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleModalWebViewController.swift; sourceTree = "<group>"; };
+		127496871D013963005A96D8 /* SimpleWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleWebViewController.swift; sourceTree = "<group>"; };
 		1374B79237CAC07693E99442FBED1F15 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
 		1A934FE7EF6176A421B038C5257C5311 /* Pods-SimpleWebViewController_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SimpleWebViewController_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		1BD1DEC4240736DA8DDA7A10FD52252B /* Pods-SimpleWebViewController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SimpleWebViewController_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -100,7 +103,6 @@
 		9A69AD0237CBECB2ED21B40E60E958C3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		A73A5F4D59E002286BF0346520D7AE61 /* Pods-SimpleWebViewController_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SimpleWebViewController_Example-dummy.m"; sourceTree = "<group>"; };
 		AA45CF1C7898906CFE6D29D997A1AA24 /* Pods-SimpleWebViewController_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SimpleWebViewController_Tests.modulemap"; sourceTree = "<group>"; };
-		ABE93F4DA8ED9EAE276387771414DE1A /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
 		AE2E8395D9681582C6DBA41F9AF27191 /* Pods-SimpleWebViewController_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SimpleWebViewController_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		B9109B8B333B5A1A3E92EFC09EDC10AC /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
 		B9CEF7D6C5E08AB80E58DABC75D882BC /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
@@ -266,7 +268,8 @@
 		98E24B06362055B9BE6FF0A1B2EF1298 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				ABE93F4DA8ED9EAE276387771414DE1A /* ReplaceMe.swift */,
+				127496861D013963005A96D8 /* SimpleModalWebViewController.swift */,
+				127496871D013963005A96D8 /* SimpleWebViewController.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -509,8 +512,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA82DE865FD3C32817FB8127E22A59DF /* ReplaceMe.swift in Sources */,
+				127496891D013963005A96D8 /* SimpleWebViewController.swift in Sources */,
 				81D38D17588A03A9132DD5130943C161 /* SimpleWebViewController-dummy.m in Sources */,
+				127496881D013963005A96D8 /* SimpleModalWebViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -598,6 +602,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4057AD1B35B9AEABD851BA90C4E5FF1A /* SimpleWebViewController.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -725,6 +730,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4057AD1B35B9AEABD851BA90C4E5FF1A /* SimpleWebViewController.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
