@@ -9,30 +9,35 @@
 /* Begin PBXBuildFile section */
 		007E0A3F9DEDF964A258EC7AD382C256 /* Pods-SimpleWebViewController_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A73A5F4D59E002286BF0346520D7AE61 /* Pods-SimpleWebViewController_Example-dummy.m */; };
 		09C1F2E61D1B44E7FCD662E62D770F1B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F1B0A45F864B16BBE8E470C07F8F740 /* Foundation.framework */; };
+		09CCBD4F433F136121C1F2CD566D2577 /* SimpleWebViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BB7C0BECBF28DAB62029115DB0E7ACE4 /* SimpleWebViewController-dummy.m */; };
 		11C22C7B844DF31A5EBDC9AC132C5E94 /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B5E22F9517F21D3A0251F88FCAB281E /* UIImage+Compare.m */; };
-		127496881D013963005A96D8 /* SimpleModalWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127496861D013963005A96D8 /* SimpleModalWebViewController.swift */; };
-		127496891D013963005A96D8 /* SimpleWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127496871D013963005A96D8 /* SimpleWebViewController.swift */; };
 		130F048002A62769FAFCC66F2C79391A /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1374B79237CAC07693E99442FBED1F15 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2C87E1788C8FA06AE3481A2226E3AF2D /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EECE81A9AEC1ED1057A9C3C88DBCEBE /* UIApplication+StrictKeyWindow.m */; };
 		34A1C7E576C58A9D3F3101448308BF3E /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B161931541BFE46DFEA2092EDDDA815 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		37330731F4E88987A3F55B2E20F08C6F /* back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 191DB2160A1F28A568ED4080282742A9 /* back@2x.png */; };
 		456B234263F0F823EDAEDF718529EDD6 /* Pods-SimpleWebViewController_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 701070FCEC2BE3D61E6EBBFDE2084292 /* Pods-SimpleWebViewController_Tests-dummy.m */; };
 		497AA8816FC08215EF4C2431E1986992 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C18C0EB1FED5EB5CE3B0E768AC510F /* FBSnapshotTestCase-dummy.m */; };
+		50DA08047083121155C20485D7FD5919 /* SimpleModalWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D69CFAC3563117C5A0012CDFA3F75F /* SimpleModalWebViewController.swift */; };
 		61EBC5CF0D5E065C88028B49C6B8D3B3 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 85E250EF19C5B5671AEC10BEB508D087 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		68B245DB47CA60F8F9ADCA1E8CCDC324 /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = B9109B8B333B5A1A3E92EFC09EDC10AC /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		6914EE43A9B8B8D30220B3B6B0D57523 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 39577E2B806B8B2D019998DE60728F63 /* FBSnapshotTestCase.m */; };
 		6E4A16BF4D27C48BB1FE1E1CF5E8B90E /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A2557E7CE20AACCD1B28B1CD1F920D /* FBSnapshotTestCasePlatform.m */; };
 		73B96724E9D2B03677BA3C2D24601D64 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF31F155B6FBBDD8C6F4E390A699C8D8 /* XCTest.framework */; };
-		81D38D17588A03A9132DD5130943C161 /* SimpleWebViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 625DF804661FA00D478403F64FBF6181 /* SimpleWebViewController-dummy.m */; };
 		85D178DFCA1BC67BBFB1188E34EC5B19 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97545C39C4A5EE2631DD9FFECE76A40 /* SwiftSupport.swift */; };
+		8A77E383ECDC1C3DAF58FA22158727A0 /* forward.png in Resources */ = {isa = PBXBuildFile; fileRef = FECC460FE2C7AD96897CE0CE0D7AA72C /* forward.png */; };
 		8ACF6A5515A175054E22414BF740EF14 /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = E37899BD4B349060AA147E2A3721D3A2 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9862CCD31D42F24D80D199944774FC39 /* SimpleWebViewController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F471CBCF620D62DDB59D9A8F15357290 /* SimpleWebViewController.bundle */; };
+		994C4B3D1939669435393ACECDFB4190 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 13F16655C1FBD6906602F48642F02BA5 /* back.png */; };
 		9FA3B93CE0ECAC3CDC30890659AACF82 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E3DB4D092B985E76E227F7F313C6981 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A2BCC3F52B40F1082084608727E46A81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F1B0A45F864B16BBE8E470C07F8F740 /* Foundation.framework */; };
 		A932B89F114B02D24B5FBF362FD0B9F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F1B0A45F864B16BBE8E470C07F8F740 /* Foundation.framework */; };
+		AA012E41A8956096048EE69354574DB9 /* forward@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6813D564EA3B169709F59F13C812047B /* forward@2x.png */; };
+		AE03D2BF488C5452E725F781E4202BE4 /* SimpleWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2E6C45E0B576BA7035231A91DEE1BC /* SimpleWebViewController.swift */; };
 		B6A67A3B998747E4290BF6010EC33806 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 73D037B3C804B9E1BB70538E342E5104 /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C360952381641F725C15758993A0F665 /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = B9CEF7D6C5E08AB80E58DABC75D882BC /* UIImage+Diff.m */; };
 		C4A7A25FC728C2F85F770FFF24B73A3B /* Pods-SimpleWebViewController_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 95D62E0A792F3BA54901DBC6F49CC40A /* Pods-SimpleWebViewController_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C708C60C86BC1AF3F15FF0C7B9454E32 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F1B0A45F864B16BBE8E470C07F8F740 /* Foundation.framework */; };
-		C73DE8CF77D0C79CD44A3BA47981B183 /* SimpleWebViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5386BB569BA8752D702823F3E2EAE7DB /* SimpleWebViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C73DE8CF77D0C79CD44A3BA47981B183 /* SimpleWebViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AEED42A39D7E4794C512FB10703CE53A /* SimpleWebViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D5C30BC656C11AF60394E3180A217BB1 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DBFBDCC891B770A2AC9EF0FB164B751 /* UIImage+Snapshot.m */; };
 		EAA652557B70F493923A3447B5D64E0D /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 432938111B6FF0189EFFEDF2F845B308 /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		F0B3BC4CE7B1074981F32DDD032E9539 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23CD3E7B203996A0AD52CB5A5492AB0D /* UIKit.framework */; };
@@ -49,6 +54,13 @@
 			remoteGlobalIDString = D54E95851C0A078F87B7AAEDF9211A8C;
 			remoteInfo = SimpleWebViewController;
 		};
+		928F4DF5D4E5A92C7E60514285096706 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6816CB0804E3E2388FCC0C12AE51BC23;
+			remoteInfo = "SimpleWebViewController-SimpleWebViewController";
+		};
 		CC89582D168E7287FB1F01465EC7E817 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
@@ -60,20 +72,25 @@
 
 /* Begin PBXFileReference section */
 		052258A488A96C35531FAC73C4F42924 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
+		0A2E6C45E0B576BA7035231A91DEE1BC /* SimpleWebViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SimpleWebViewController.swift; sourceTree = "<group>"; };
 		0B161931541BFE46DFEA2092EDDDA815 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
-		127496861D013963005A96D8 /* SimpleModalWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleModalWebViewController.swift; sourceTree = "<group>"; };
-		127496871D013963005A96D8 /* SimpleWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleWebViewController.swift; sourceTree = "<group>"; };
 		1374B79237CAC07693E99442FBED1F15 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
+		13F16655C1FBD6906602F48642F02BA5 /* back.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		191DB2160A1F28A568ED4080282742A9 /* back@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "back@2x.png"; sourceTree = "<group>"; };
 		1A934FE7EF6176A421B038C5257C5311 /* Pods-SimpleWebViewController_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SimpleWebViewController_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		1BD1DEC4240736DA8DDA7A10FD52252B /* Pods-SimpleWebViewController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SimpleWebViewController_Example.release.xcconfig"; sourceTree = "<group>"; };
 		23CD3E7B203996A0AD52CB5A5492AB0D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		2925764E07A7B553F8C266CC3DDEBD0A /* Pods-SimpleWebViewController_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SimpleWebViewController_Example-resources.sh"; sourceTree = "<group>"; };
 		2EECE81A9AEC1ED1057A9C3C88DBCEBE /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
 		2F1B0A45F864B16BBE8E470C07F8F740 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3174043708A5BC293D3DCD8E03D14228 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34007224242A05A53C933EEB55A8EF54 /* ResourceBundle-SimpleWebViewController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-SimpleWebViewController-Info.plist"; sourceTree = "<group>"; };
+		38B5FB27D6128D6C677B9D5CEDBAC003 /* SimpleWebViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SimpleWebViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		39577E2B806B8B2D019998DE60728F63 /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
 		3B5E22F9517F21D3A0251F88FCAB281E /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
 		3DBFBDCC891B770A2AC9EF0FB164B751 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
-		4057AD1B35B9AEABD851BA90C4E5FF1A /* SimpleWebViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SimpleWebViewController.xcconfig; sourceTree = "<group>"; };
+		40D69CFAC3563117C5A0012CDFA3F75F /* SimpleModalWebViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SimpleModalWebViewController.swift; sourceTree = "<group>"; };
+		41C6D7E9E65C1AA092A1462A349FF6DE /* Pods_SimpleWebViewController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleWebViewController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4241ED6416B9ABC0A4B56097DDF3CEB2 /* Pods-SimpleWebViewController_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SimpleWebViewController_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		432938111B6FF0189EFFEDF2F845B308 /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
 		43F8B6FA1ABC1A597FE2B9B3B93156EF /* Pods-SimpleWebViewController_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SimpleWebViewController_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -81,45 +98,53 @@
 		481ACB0D3320BF14BA86E1973B3DA1C8 /* Pods-SimpleWebViewController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SimpleWebViewController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		4ABD60C92D8C34538A067AC6A23D4CA0 /* Pods-SimpleWebViewController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SimpleWebViewController_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		52C18C0EB1FED5EB5CE3B0E768AC510F /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
-		5386BB569BA8752D702823F3E2EAE7DB /* SimpleWebViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SimpleWebViewController-umbrella.h"; sourceTree = "<group>"; };
-		5555BDBAE7C0193F4E364B6659AF7354 /* SimpleWebViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SimpleWebViewController-prefix.pch"; sourceTree = "<group>"; };
-		575259CA6E62B8C16751E8B60AE6B493 /* SimpleWebViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SimpleWebViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		58A2557E7CE20AACCD1B28B1CD1F920D /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
 		5E5B685F60FC2169C5E91A783762B796 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		625DF804661FA00D478403F64FBF6181 /* SimpleWebViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SimpleWebViewController-dummy.m"; sourceTree = "<group>"; };
 		63C411B40E955DE9ECD122B938CFD199 /* Pods-SimpleWebViewController_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SimpleWebViewController_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		6A59AE701592F079DD9EF8264DA70670 /* Pods_SimpleWebViewController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleWebViewController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6401F659EAA30E10EADC1752FFE766AE /* SimpleWebViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SimpleWebViewController.xcconfig; sourceTree = "<group>"; };
+		6813D564EA3B169709F59F13C812047B /* forward@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "forward@2x.png"; sourceTree = "<group>"; };
 		6E66B4218824CF8160D93713DDBEEA82 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		701070FCEC2BE3D61E6EBBFDE2084292 /* Pods-SimpleWebViewController_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SimpleWebViewController_Tests-dummy.m"; sourceTree = "<group>"; };
 		73D037B3C804B9E1BB70538E342E5104 /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
-		7CCE1BFADF59FA91478ADFB0145F2DED /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7E3DB4D092B985E76E227F7F313C6981 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
 		823558E8AC8EB39D028DB5FBBEA227A3 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
 		85E250EF19C5B5671AEC10BEB508D087 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		95D62E0A792F3BA54901DBC6F49CC40A /* Pods-SimpleWebViewController_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SimpleWebViewController_Example-umbrella.h"; sourceTree = "<group>"; };
-		9674B4478D73C3E3E7DE9DB3CD736397 /* Pods_SimpleWebViewController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleWebViewController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9661C6C8F5D36CC5BD763E17121E0492 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		994AF07EF93398C33BB4E2E22D0373FB /* Pods-SimpleWebViewController_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SimpleWebViewController_Example.modulemap"; sourceTree = "<group>"; };
 		9A69AD0237CBECB2ED21B40E60E958C3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		9ED18759EC921E1D8229BBC3336ED187 /* Pods_SimpleWebViewController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleWebViewController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A73A5F4D59E002286BF0346520D7AE61 /* Pods-SimpleWebViewController_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SimpleWebViewController_Example-dummy.m"; sourceTree = "<group>"; };
 		AA45CF1C7898906CFE6D29D997A1AA24 /* Pods-SimpleWebViewController_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SimpleWebViewController_Tests.modulemap"; sourceTree = "<group>"; };
 		AE2E8395D9681582C6DBA41F9AF27191 /* Pods-SimpleWebViewController_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SimpleWebViewController_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		AEED42A39D7E4794C512FB10703CE53A /* SimpleWebViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SimpleWebViewController-umbrella.h"; sourceTree = "<group>"; };
 		B9109B8B333B5A1A3E92EFC09EDC10AC /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
 		B9CEF7D6C5E08AB80E58DABC75D882BC /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
 		BAD7A68F26DEB63B9EA37003F4F76282 /* Pods-SimpleWebViewController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SimpleWebViewController_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		BB7C0BECBF28DAB62029115DB0E7ACE4 /* SimpleWebViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SimpleWebViewController-dummy.m"; sourceTree = "<group>"; };
 		BEDDB641985BD5E25E63F8D7BAE8C37A /* Pods-SimpleWebViewController_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SimpleWebViewController_Tests-resources.sh"; sourceTree = "<group>"; };
 		CC12BCFA3FC0B8C307F5B38C673EDD12 /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
 		CF31F155B6FBBDD8C6F4E390A699C8D8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		D97545C39C4A5EE2631DD9FFECE76A40 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
 		DADAF30F2D84FDAAD2ADD2D50C1F40DF /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
 		E37899BD4B349060AA147E2A3721D3A2 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
-		E681705C4F13197FAF995F980289792C /* SimpleWebViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SimpleWebViewController.modulemap; sourceTree = "<group>"; };
-		EA7C0C7452C09D6F1A18FF3204B6E366 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3CBADC3ECA5EEFD4653AD5690E123DA /* SimpleWebViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SimpleWebViewController-prefix.pch"; sourceTree = "<group>"; };
+		F471CBCF620D62DDB59D9A8F15357290 /* SimpleWebViewController.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleWebViewController.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		F56FE3A48FA48BED18BC6B93B3031E4F /* SimpleWebViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SimpleWebViewController.modulemap; sourceTree = "<group>"; };
 		F574FF7BAFE96C57E877C53DD08BDC81 /* Pods-SimpleWebViewController_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SimpleWebViewController_Tests-umbrella.h"; sourceTree = "<group>"; };
 		FD262479AF331CCF7872F4263E798AE2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FECC460FE2C7AD96897CE0CE0D7AA72C /* forward.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = forward.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		5A18771ABB7C15AF100B0850A461FDA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		707DF37C81895A9962335DCF2792246D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -158,6 +183,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		06E61CB63FE7F8046845579FDDA2F699 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1C116E548BFC43E6C9AC391EC0C7E0B3 /* SimpleWebViewController */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		08A85BC7EED2D270AB573252439DF1CA /* SimpleWebViewController.bundle */ = {
+			isa = PBXGroup;
+			children = (
+				13F16655C1FBD6906602F48642F02BA5 /* back.png */,
+				191DB2160A1F28A568ED4080282742A9 /* back@2x.png */,
+				FECC460FE2C7AD96897CE0CE0D7AA72C /* forward.png */,
+				6813D564EA3B169709F59F13C812047B /* forward@2x.png */,
+			);
+			path = SimpleWebViewController.bundle;
+			sourceTree = "<group>";
+		};
+		0B2038D14E6403B337A3D72E9329BE97 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				40D69CFAC3563117C5A0012CDFA3F75F /* SimpleModalWebViewController.swift */,
+				0A2E6C45E0B576BA7035231A91DEE1BC /* SimpleWebViewController.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -180,12 +233,15 @@
 			path = "../Target Support Files/FBSnapshotTestCase";
 			sourceTree = "<group>";
 		};
-		216526E943A136E1C07F007CE829CB6C /* SimpleWebViewController */ = {
+		1C116E548BFC43E6C9AC391EC0C7E0B3 /* SimpleWebViewController */ = {
 			isa = PBXGroup;
 			children = (
-				98E24B06362055B9BE6FF0A1B2EF1298 /* Classes */,
+				B090FAB60071EFEFCCAFB526C1A2F8AE /* Resources */,
+				D454F98750C3A13C6CCF85870BAFF415 /* SimpleWebViewController */,
+				A358648C036E1A8AC1C1F86EE0F4294A /* Support Files */,
 			);
-			path = SimpleWebViewController;
+			name = SimpleWebViewController;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		2287B5EBEAA3C332F8DB9A1E61F5B097 /* FBSnapshotTestCase */ = {
@@ -207,28 +263,12 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		5010B2289E381928949A0C12D53A1AD7 /* Support Files */ = {
+		674347203F7C7A732E89E9898FBD2C48 /* SimpleWebViewController */ = {
 			isa = PBXGroup;
 			children = (
-				7CCE1BFADF59FA91478ADFB0145F2DED /* Info.plist */,
-				E681705C4F13197FAF995F980289792C /* SimpleWebViewController.modulemap */,
-				4057AD1B35B9AEABD851BA90C4E5FF1A /* SimpleWebViewController.xcconfig */,
-				625DF804661FA00D478403F64FBF6181 /* SimpleWebViewController-dummy.m */,
-				5555BDBAE7C0193F4E364B6659AF7354 /* SimpleWebViewController-prefix.pch */,
-				5386BB569BA8752D702823F3E2EAE7DB /* SimpleWebViewController-umbrella.h */,
+				08A85BC7EED2D270AB573252439DF1CA /* SimpleWebViewController.bundle */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/SimpleWebViewController";
-			sourceTree = "<group>";
-		};
-		7302B7FA549C7F00F4519A0D38D0F7B9 /* SimpleWebViewController */ = {
-			isa = PBXGroup;
-			children = (
-				216526E943A136E1C07F007CE829CB6C /* SimpleWebViewController */,
-				5010B2289E381928949A0C12D53A1AD7 /* Support Files */,
-			);
-			name = SimpleWebViewController;
-			path = ../..;
+			path = SimpleWebViewController;
 			sourceTree = "<group>";
 		};
 		7AB6481CFE5F8A7F7E7C212E6398EC0C /* iOS */ = {
@@ -246,32 +286,24 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				DCB240E9A81F65021D561E14E381440F /* Development Pods */,
+				06E61CB63FE7F8046845579FDDA2F699 /* Development Pods */,
 				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
 				FBD2D672921284E66F309CA3462F84D6 /* Pods */,
-				88B4485C65E3F2A192741BBC6FEC8B52 /* Products */,
+				892905651B02E032E0A9F925A292DA7B /* Products */,
 				2A37C252E8425911E839C1CB2F6BCC92 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		88B4485C65E3F2A192741BBC6FEC8B52 /* Products */ = {
+		892905651B02E032E0A9F925A292DA7B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EA7C0C7452C09D6F1A18FF3204B6E366 /* FBSnapshotTestCase.framework */,
-				9674B4478D73C3E3E7DE9DB3CD736397 /* Pods_SimpleWebViewController_Example.framework */,
-				6A59AE701592F079DD9EF8264DA70670 /* Pods_SimpleWebViewController_Tests.framework */,
-				575259CA6E62B8C16751E8B60AE6B493 /* SimpleWebViewController.framework */,
+				9661C6C8F5D36CC5BD763E17121E0492 /* FBSnapshotTestCase.framework */,
+				9ED18759EC921E1D8229BBC3336ED187 /* Pods_SimpleWebViewController_Example.framework */,
+				41C6D7E9E65C1AA092A1462A349FF6DE /* Pods_SimpleWebViewController_Tests.framework */,
+				F471CBCF620D62DDB59D9A8F15357290 /* SimpleWebViewController.bundle */,
+				38B5FB27D6128D6C677B9D5CEDBAC003 /* SimpleWebViewController.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		98E24B06362055B9BE6FF0A1B2EF1298 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				127496861D013963005A96D8 /* SimpleModalWebViewController.swift */,
-				127496871D013963005A96D8 /* SimpleWebViewController.swift */,
-			);
-			path = Classes;
 			sourceTree = "<group>";
 		};
 		99E46DD4AB2256791F111C718CB0EEF8 /* SwiftSupport */ = {
@@ -280,6 +312,29 @@
 				D97545C39C4A5EE2631DD9FFECE76A40 /* SwiftSupport.swift */,
 			);
 			name = SwiftSupport;
+			sourceTree = "<group>";
+		};
+		A358648C036E1A8AC1C1F86EE0F4294A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3174043708A5BC293D3DCD8E03D14228 /* Info.plist */,
+				34007224242A05A53C933EEB55A8EF54 /* ResourceBundle-SimpleWebViewController-Info.plist */,
+				F56FE3A48FA48BED18BC6B93B3031E4F /* SimpleWebViewController.modulemap */,
+				6401F659EAA30E10EADC1752FFE766AE /* SimpleWebViewController.xcconfig */,
+				BB7C0BECBF28DAB62029115DB0E7ACE4 /* SimpleWebViewController-dummy.m */,
+				E3CBADC3ECA5EEFD4653AD5690E123DA /* SimpleWebViewController-prefix.pch */,
+				AEED42A39D7E4794C512FB10703CE53A /* SimpleWebViewController-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SimpleWebViewController";
+			sourceTree = "<group>";
+		};
+		B090FAB60071EFEFCCAFB526C1A2F8AE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				674347203F7C7A732E89E9898FBD2C48 /* SimpleWebViewController */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		B4BDD0B76B1516DDE48ED6EC7C66B844 /* Pods-SimpleWebViewController_Example */ = {
@@ -300,12 +355,12 @@
 			path = "Target Support Files/Pods-SimpleWebViewController_Example";
 			sourceTree = "<group>";
 		};
-		DCB240E9A81F65021D561E14E381440F /* Development Pods */ = {
+		D454F98750C3A13C6CCF85870BAFF415 /* SimpleWebViewController */ = {
 			isa = PBXGroup;
 			children = (
-				7302B7FA549C7F00F4519A0D38D0F7B9 /* SimpleWebViewController */,
+				0B2038D14E6403B337A3D72E9329BE97 /* Classes */,
 			);
-			name = "Development Pods";
+			path = SimpleWebViewController;
 			sourceTree = "<group>";
 		};
 		F02CF991D28C65C3D94F3BBA24D44341 /* Pods-SimpleWebViewController_Tests */ = {
@@ -415,7 +470,7 @@
 			);
 			name = "Pods-SimpleWebViewController_Example";
 			productName = "Pods-SimpleWebViewController_Example";
-			productReference = 9674B4478D73C3E3E7DE9DB3CD736397 /* Pods_SimpleWebViewController_Example.framework */;
+			productReference = 9ED18759EC921E1D8229BBC3336ED187 /* Pods_SimpleWebViewController_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		5DB46EA499F9A5E22765121102FCC34B /* FBSnapshotTestCase */ = {
@@ -432,8 +487,25 @@
 			);
 			name = FBSnapshotTestCase;
 			productName = FBSnapshotTestCase;
-			productReference = EA7C0C7452C09D6F1A18FF3204B6E366 /* FBSnapshotTestCase.framework */;
+			productReference = 9661C6C8F5D36CC5BD763E17121E0492 /* FBSnapshotTestCase.framework */;
 			productType = "com.apple.product-type.framework";
+		};
+		6816CB0804E3E2388FCC0C12AE51BC23 /* SimpleWebViewController-SimpleWebViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E4B72F9B60D18BBD65E0B29460AD3E2 /* Build configuration list for PBXNativeTarget "SimpleWebViewController-SimpleWebViewController" */;
+			buildPhases = (
+				332BBE90EA23835B5A114B33965BFFAA /* Sources */,
+				5A18771ABB7C15AF100B0850A461FDA1 /* Frameworks */,
+				BB11A374C446EDD985C5D7AD149276E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SimpleWebViewController-SimpleWebViewController";
+			productName = "SimpleWebViewController-SimpleWebViewController";
+			productReference = F471CBCF620D62DDB59D9A8F15357290 /* SimpleWebViewController.bundle */;
+			productType = "com.apple.product-type.bundle";
 		};
 		685F6C94298BA8E30A13BC994BBB3EA8 /* Pods-SimpleWebViewController_Tests */ = {
 			isa = PBXNativeTarget;
@@ -450,24 +522,26 @@
 			);
 			name = "Pods-SimpleWebViewController_Tests";
 			productName = "Pods-SimpleWebViewController_Tests";
-			productReference = 6A59AE701592F079DD9EF8264DA70670 /* Pods_SimpleWebViewController_Tests.framework */;
+			productReference = 41C6D7E9E65C1AA092A1462A349FF6DE /* Pods_SimpleWebViewController_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		D54E95851C0A078F87B7AAEDF9211A8C /* SimpleWebViewController */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 37B9EDC31B9F5DEC3DD39B1B377196A9 /* Build configuration list for PBXNativeTarget "SimpleWebViewController" */;
 			buildPhases = (
-				373887BC4D0CBBD09E4521DAD67CCC38 /* Sources */,
+				D505F32F7068C5B72C317E03F2569AFA /* Sources */,
 				959D3E2402A29929AA76A8BBEC34ACDA /* Frameworks */,
+				6E608642B4590F817015073F434CFDA6 /* Resources */,
 				A9DF5D177E50333824C23E21E5132776 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				52628A1C988DDFC4E17F98CE5511923C /* PBXTargetDependency */,
 			);
 			name = SimpleWebViewController;
 			productName = SimpleWebViewController;
-			productReference = 575259CA6E62B8C16751E8B60AE6B493 /* SimpleWebViewController.framework */;
+			productReference = 38B5FB27D6128D6C677B9D5CEDBAC003 /* SimpleWebViewController.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -487,7 +561,7 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 88B4485C65E3F2A192741BBC6FEC8B52 /* Products */;
+			productRefGroup = 892905651B02E032E0A9F925A292DA7B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -495,9 +569,32 @@
 				2E5992E3A639BAF14C1B5EB084A08DDC /* Pods-SimpleWebViewController_Example */,
 				685F6C94298BA8E30A13BC994BBB3EA8 /* Pods-SimpleWebViewController_Tests */,
 				D54E95851C0A078F87B7AAEDF9211A8C /* SimpleWebViewController */,
+				6816CB0804E3E2388FCC0C12AE51BC23 /* SimpleWebViewController-SimpleWebViewController */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6E608642B4590F817015073F434CFDA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9862CCD31D42F24D80D199944774FC39 /* SimpleWebViewController.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB11A374C446EDD985C5D7AD149276E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				994C4B3D1939669435393ACECDFB4190 /* back.png in Resources */,
+				37330731F4E88987A3F55B2E20F08C6F /* back@2x.png in Resources */,
+				8A77E383ECDC1C3DAF58FA22158727A0 /* forward.png in Resources */,
+				AA012E41A8956096048EE69354574DB9 /* forward@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		148FBCBBBD0FD7D8E7393912DF8940BD /* Sources */ = {
@@ -508,13 +605,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		373887BC4D0CBBD09E4521DAD67CCC38 /* Sources */ = {
+		332BBE90EA23835B5A114B33965BFFAA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				127496891D013963005A96D8 /* SimpleWebViewController.swift in Sources */,
-				81D38D17588A03A9132DD5130943C161 /* SimpleWebViewController-dummy.m in Sources */,
-				127496881D013963005A96D8 /* SimpleModalWebViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -531,6 +625,16 @@
 				11C22C7B844DF31A5EBDC9AC132C5E94 /* UIImage+Compare.m in Sources */,
 				C360952381641F725C15758993A0F665 /* UIImage+Diff.m in Sources */,
 				D5C30BC656C11AF60394E3180A217BB1 /* UIImage+Snapshot.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D505F32F7068C5B72C317E03F2569AFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50DA08047083121155C20485D7FD5919 /* SimpleModalWebViewController.swift in Sources */,
+				09CCBD4F433F136121C1F2CD566D2577 /* SimpleWebViewController-dummy.m in Sources */,
+				AE03D2BF488C5452E725F781E4202BE4 /* SimpleWebViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -556,6 +660,12 @@
 			name = SimpleWebViewController;
 			target = D54E95851C0A078F87B7AAEDF9211A8C /* SimpleWebViewController */;
 			targetProxy = 2E4E6185E78CF4D736239181C49AACF9 /* PBXContainerItemProxy */;
+		};
+		52628A1C988DDFC4E17F98CE5511923C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SimpleWebViewController-SimpleWebViewController";
+			target = 6816CB0804E3E2388FCC0C12AE51BC23 /* SimpleWebViewController-SimpleWebViewController */;
+			targetProxy = 928F4DF5D4E5A92C7E60514285096706 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -600,9 +710,8 @@
 		};
 		19718B67CA37A0B6F7C27D67B3E39EAB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4057AD1B35B9AEABD851BA90C4E5FF1A /* SimpleWebViewController.xcconfig */;
+			baseConfigurationReference = 6401F659EAA30E10EADC1752FFE766AE /* SimpleWebViewController.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -626,6 +735,23 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1CD2678312B0601ABCF13C6496AAC4AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6401F659EAA30E10EADC1752FFE766AE /* SimpleWebViewController.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SimpleWebViewController";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/SimpleWebViewController/ResourceBundle-SimpleWebViewController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = SimpleWebViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
 		};
@@ -658,6 +784,23 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		3F775B983CBA0CB0737BEFAA8ED3FBEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6401F659EAA30E10EADC1752FFE766AE /* SimpleWebViewController.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SimpleWebViewController";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/SimpleWebViewController/ResourceBundle-SimpleWebViewController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = SimpleWebViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
 		};
 		617CEA4EC9B4D44D1A7CAD769256E856 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -728,9 +871,8 @@
 		};
 		9A28EBB3B7196106C625126C39233879 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4057AD1B35B9AEABD851BA90C4E5FF1A /* SimpleWebViewController.xcconfig */;
+			baseConfigurationReference = 6401F659EAA30E10EADC1752FFE766AE /* SimpleWebViewController.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -920,6 +1062,15 @@
 			buildConfigurations = (
 				DAB22321AC76B718D12CDEA4E8C7941D /* Debug */,
 				AB8B185289131328F24EEADE78335F91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E4B72F9B60D18BBD65E0B29460AD3E2 /* Build configuration list for PBXNativeTarget "SimpleWebViewController-SimpleWebViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CD2678312B0601ABCF13C6496AAC4AF /* Debug */,
+				3F775B983CBA0CB0737BEFAA8ED3FBEB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

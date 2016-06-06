@@ -1,9 +1,8 @@
 {
   "name": "SimpleWebViewController",
-  "version": "0.1.0",
-  "summary": "A short description of SimpleWebViewController.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/SimpleWebViewController",
+  "version": "0.0.1",
+  "summary": "Simple wrapper for WKWebView",
+  "homepage": "https://github.com/shingt/SimpleWebViewController",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +11,17 @@
     "shingt": "van.s.ver@gmail.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/SimpleWebViewController.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/shingt/SimpleWebViewController.git",
+    "tag": "0.0.1"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "SimpleWebViewController/Classes/**/*"
+  "source_files": "SimpleWebViewController/Classes/**/*",
+  "resources": "SimpleWebViewController/Assets/Image.xcassets/**/*",
+  "resource_bundles": {
+    "SimpleWebViewController": [
+      "SimpleWebViewController/SimpleWebViewController.bundle/*.png"
+    ]
+  }
 }

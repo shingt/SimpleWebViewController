@@ -33,14 +33,16 @@ public class SimpleWebViewController: UIViewController {
     }()
     
     lazy private var backBarButtonItem: UIBarButtonItem = {
-        let image = UIImage(named: "back")
+        let bundle = NSBundle(forClass: self.classForCoder)
+        let image = UIImage(named: "SimpleWebViewController.bundle/back", inBundle: bundle, compatibleWithTraitCollection: nil)
         let barButtonItem = UIBarButtonItem(image: image, style: .Plain, target: self, action: #selector(self.dynamicType.goBackButtonTapped))
         barButtonItem.width = 18.0
         return barButtonItem
     }()
     
     lazy private var forwardBarButtonItem: UIBarButtonItem = {
-        let image = UIImage(named: "forward")
+        let bundle = NSBundle(forClass: self.classForCoder)
+        let image = UIImage(named: "SimpleWebViewController.bundle/forward", inBundle: bundle, compatibleWithTraitCollection: nil)
         let barButtonItem = UIBarButtonItem(image: image, style: .Plain, target: self, action: #selector(self.dynamicType.goForwardButtonTapped))
         barButtonItem.width = 18.0
         return barButtonItem
