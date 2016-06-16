@@ -12,7 +12,7 @@ class ViewController: UIViewController {
         
         let url = NSURL(string: "https://apple.com")
         let request = NSURLRequest(URL: url!)
-        let webViewController = SimpleModalWebViewController(request: request)
+        let webViewController = SimpleNavigationWebViewController(request: request)
         presentViewController(webViewController, animated: true, completion: nil)
     }
 }

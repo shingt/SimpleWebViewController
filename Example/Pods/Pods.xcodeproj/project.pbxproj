@@ -17,7 +17,7 @@
 		37330731F4E88987A3F55B2E20F08C6F /* back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 191DB2160A1F28A568ED4080282742A9 /* back@2x.png */; };
 		456B234263F0F823EDAEDF718529EDD6 /* Pods-SimpleWebViewController_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 701070FCEC2BE3D61E6EBBFDE2084292 /* Pods-SimpleWebViewController_Tests-dummy.m */; };
 		497AA8816FC08215EF4C2431E1986992 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C18C0EB1FED5EB5CE3B0E768AC510F /* FBSnapshotTestCase-dummy.m */; };
-		50DA08047083121155C20485D7FD5919 /* SimpleModalWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D69CFAC3563117C5A0012CDFA3F75F /* SimpleModalWebViewController.swift */; };
+		50DA08047083121155C20485D7FD5919 /* SimpleNavigationWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D69CFAC3563117C5A0012CDFA3F75F /* SimpleNavigationWebViewController.swift */; };
 		61EBC5CF0D5E065C88028B49C6B8D3B3 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 85E250EF19C5B5671AEC10BEB508D087 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		68B245DB47CA60F8F9ADCA1E8CCDC324 /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = B9109B8B333B5A1A3E92EFC09EDC10AC /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		6914EE43A9B8B8D30220B3B6B0D57523 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 39577E2B806B8B2D019998DE60728F63 /* FBSnapshotTestCase.m */; };
@@ -89,7 +89,7 @@
 		39577E2B806B8B2D019998DE60728F63 /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
 		3B5E22F9517F21D3A0251F88FCAB281E /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
 		3DBFBDCC891B770A2AC9EF0FB164B751 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
-		40D69CFAC3563117C5A0012CDFA3F75F /* SimpleModalWebViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SimpleModalWebViewController.swift; sourceTree = "<group>"; };
+		40D69CFAC3563117C5A0012CDFA3F75F /* SimpleNavigationWebViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SimpleNavigationWebViewController.swift; sourceTree = "<group>"; };
 		41C6D7E9E65C1AA092A1462A349FF6DE /* Pods_SimpleWebViewController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleWebViewController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4241ED6416B9ABC0A4B56097DDF3CEB2 /* Pods-SimpleWebViewController_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SimpleWebViewController_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		432938111B6FF0189EFFEDF2F845B308 /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
@@ -205,7 +205,7 @@
 		0B2038D14E6403B337A3D72E9329BE97 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				40D69CFAC3563117C5A0012CDFA3F75F /* SimpleModalWebViewController.swift */,
+				40D69CFAC3563117C5A0012CDFA3F75F /* SimpleNavigationWebViewController.swift */,
 				0A2E6C45E0B576BA7035231A91DEE1BC /* SimpleWebViewController.swift */,
 			);
 			path = Classes;
@@ -632,7 +632,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50DA08047083121155C20485D7FD5919 /* SimpleModalWebViewController.swift in Sources */,
+				50DA08047083121155C20485D7FD5919 /* SimpleNavigationWebViewController.swift in Sources */,
 				09CCBD4F433F136121C1F2CD566D2577 /* SimpleWebViewController-dummy.m in Sources */,
 				AE03D2BF488C5452E725F781E4202BE4 /* SimpleWebViewController.swift in Sources */,
 			);

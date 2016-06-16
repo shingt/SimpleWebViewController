@@ -10,7 +10,7 @@
 ```swift
 let url = NSURL(string: "https://apple.com")
 let request = NSURLRequest(URL: url!)
-let modalWebViewController = SimpleModalWebViewController(request: request)
+let modalWebViewController = SimpleNavigationWebViewController(request: request)
 presentViewController(modalWebViewController, animated: true, completion: nil)
 
 // OR
