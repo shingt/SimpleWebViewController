@@ -8,25 +8,6 @@ public class SimpleWebViewController: UIViewController {
         let webView = WKWebView()
         self.view.addSubview(webView)
 
-        webView.translatesAutoresizingMaskIntoConstraints = false
-        self.view.addConstraints([
-            NSLayoutConstraint(
-                item: webView,
-                attribute: .Width,
-                relatedBy: .Equal,
-                toItem: self.view,
-                attribute: .Width,
-                multiplier: 1.0,
-                constant: 0),
-            NSLayoutConstraint(
-                item: webView,
-                attribute: .Height,
-                relatedBy: .Equal,
-                toItem: self.view,
-                attribute: .Height,
-                multiplier: 1.0,
-                constant: 0)]
-        )
         webView.navigationDelegate = self
         webView.allowsBackForwardNavigationGestures = true
         return webView
@@ -74,6 +55,12 @@ public class SimpleWebViewController: UIViewController {
         super.loadView()
 
         self.loadRequest(request!)
+    }
+
+    public override func viewDidLayoutSubviews() {
+        super.viewDidLayoutSubviews()
+
+        webView.frame = view.bounds
     }
 
     func goBackButtonTapped() {
