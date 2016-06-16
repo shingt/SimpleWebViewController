@@ -1,6 +1,6 @@
 import UIKit
 
-public class SimpleNavigationWebViewController: UINavigationController {
+public class SimpleWebNavigationController: UINavigationController {
 
     var webViewController: SimpleWebViewController!
 
