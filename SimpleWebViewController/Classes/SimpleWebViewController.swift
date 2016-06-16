@@ -10,7 +10,7 @@ public class SimpleWebViewController: UIViewController {
 
         webView.translatesAutoresizingMaskIntoConstraints = false
         self.view.addConstraints([
-            NSLayoutConstraint.init(
+            NSLayoutConstraint(
                 item: webView,
                 attribute: .Width,
                 relatedBy: .Equal,
@@ -18,7 +18,7 @@ public class SimpleWebViewController: UIViewController {
                 attribute: .Width,
                 multiplier: 1.0,
                 constant: 0),
-            NSLayoutConstraint.init(
+            NSLayoutConstraint(
                 item: webView,
                 attribute: .Height,
                 relatedBy: .Equal,
