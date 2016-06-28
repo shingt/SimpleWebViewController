@@ -145,6 +145,7 @@ public class SimpleWebViewController: UIViewController {
 // MARK: WKNavigationDelegate
 extension SimpleWebViewController: WKNavigationDelegate {
     public func webView(webView: WKWebView, didStartProvisionalNavigation navigation: WKNavigation!) {
+        navigationItem.title = webView.title
         UIApplication.sharedApplication().networkActivityIndicatorVisible = true
         updateToolBarItems()
     }
